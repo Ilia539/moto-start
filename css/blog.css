@@ -1,0 +1,27 @@
+.blog {
+  padding: 19px 0 85px 0;
+}
+.blog__header {
+  margin-bottom: 43px;
+}
+.blog__header-title {
+  margin-bottom: 36px;
+  color: #1a1919;
+}
+.blog__header-text {
+  color: #1a1919;
+  font-size: 17.8px;
+}
+.blog__country {
+  font-size: 36px;
+}
+@media screen and (max-width: 1025px) {
+  .blog {
+    padding: 19px 0 70px 0;
+}
+}
+@media screen and (max-width: 768px) {
+  .blog {
+    padding: 19px 0 50px 0;
+}
+}

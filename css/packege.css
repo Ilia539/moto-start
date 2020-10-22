@@ -1,0 +1,114 @@
+
+.packege {
+    padding-bottom: 60px;
+}
+.packege__inner {
+    margin-top: -226px;
+}
+.packege__card-img {
+    
+}
+
+
+.card-price {
+    font-family: 'Bebas';
+    font-size: 55px;
+line-height: 1.1;
+font-weight: 400;
+margin-bottom: 5px;
+}
+.card-price span {
+    font-size: 36px;
+}
+.card-subprice {
+    font-family: 'Bebas Neue';
+font-size: 21px;
+line-height: 1.1;
+font-weight: 400;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+}
+.block-content {
+    padding: 50px 33px 0 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+.packege__card-title,.blog__card-title {
+    color: #202020;
+    margin-bottom: 18px;
+}
+.packege__card-text {
+    margin-bottom: 34px;
+}
+.packege__card-btn {
+    font-family: 'Bebas Neue';
+font-size: 21.2px;
+line-height: 1.2;
+font-weight: 700;
+color: #ffffff;
+padding: 11px 22px;
+text-transform: uppercase;
+background-color: #cd0a2d;
+border-radius: 25px;
+align-self: flex-start;
+}
+@media screen and (max-width: 1310px) {
+    .packege__inner {
+        margin-top: -210px;
+    }
+    .block-content {
+        padding: 45px 25px 0 0;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .packege__inner {
+        margin-top: -190px;
+    }
+    .block-content {
+        padding: 45px 20px 0 0;
+    }
+    .packege__card-text {
+        margin-bottom: 25px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .block-content {
+        padding: 45px 15px 0 0;
+    }
+}
+@media screen and (max-width: 880px) {
+    .block-card {
+        flex: 0 1 97.333%;
+        padding: 0 20px;
+        margin: 20px 0;
+    }
+    .block-content {
+        padding: 45px 10px 0 10px;
+        text-align: center;
+    }
+    .packege__card-btn {
+        align-self: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .packege {
+        padding-bottom: 40px;
+    }
+    .packege__inner {
+        margin-top: -165px;
+    }
+}
+@media screen and (max-width: 667px) {
+    .packege__inner {
+        margin-top: -140px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .packege__inner {
+        margin-top: -110px;
+    }
+    .packege {
+        padding-bottom: 20px;
+    }
+}

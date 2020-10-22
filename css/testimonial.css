@@ -1,0 +1,137 @@
+.testimonial {
+    padding-top: 70px;
+}
+.testimonial__container {
+    max-width: 1238px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+.testimonial__header {
+    
+    margin-bottom: 12px;
+}
+.testimonial__header-title {
+color: #000000;
+    margin-bottom: 36px;
+}
+.testimonial__header-title span {
+    color: #cd0a2d;
+}
+.testimonial__header-text {
+    color: #5d5c5c;
+}
+.testimonial__rider {
+    max-width: 1099px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.testimonial__rider-card {
+    max-width: 568px;
+    width: 100%;
+    background-color: #ffffff;
+    align-self: flex-end;
+    z-index: 1;
+}
+.testimonial__rider-card-wrap {
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 38px 15px 95px 15px;
+}
+.testimonial__rider-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 63px;
+}
+.testimonial__rider-face {
+    max-width: 69px;
+    border-radius: 50%;
+    margin-right: 11px;
+}
+.testimonial-name {
+    font-family: 'Bebas';
+font-size: 23.1px;
+line-height: 33px;
+font-weight: 400;
+letter-spacing: 0.005em;
+color: #212121;
+}
+.testimonial-profession {
+    font-family: 'Bebas Neue';
+font-size: 20.1px;
+line-height: 28px;
+font-weight: 400;
+letter-spacing: 0.005em;
+color: #212121;
+}
+.testimonial__rider-text {
+    max-width: 412px;
+    font-family: 'Lato Medium Italic';
+    font-style: italic;
+    font-weight: 500;
+    color: #212121;
+}
+.testimonial__rider-photo {
+    overflow: hidden;
+    padding-left: 15px;
+    min-height: 524px;
+    flex: 0 0 405px;
+    z-index: 1;
+}
+@media (max-width: 1200px) {
+    .testimonial {
+        padding-top: 60px;
+    }
+}
+@media (max-width: 980px) {
+    .testimonial {
+        padding-top: 50px;
+    }
+    .testimonial__rider {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .testimonial__rider-photo {
+        min-height: 0px;
+        flex: 0 1 405px;
+        order: -1;
+    }
+    .testimonial__rider-info {
+        margin-bottom: 50px;
+    }
+    .testimonial__rider-card-wrap {
+        padding: 38px 15px 80px 15px;
+    }
+}
+@media (max-width: 768px) {
+    .testimonial {
+        padding-top: 35px;
+    }
+    .testimonial__header-title {
+        margin-bottom: 25px;
+    }
+    .testimonial__rider-info {
+        margin-bottom: 35px;
+        flex-direction: column;
+    }
+    .testimonial__rider-face {
+        margin: 0 0 10px 0;
+    }
+    .testimonial__rider-card-wrap {
+        padding: 38px 15px 60px 15px;
+    }
+}
+@media (max-width: 640px) {
+    .testimonial {
+        padding-top: 20px;
+    }
+    .testimonial__header-title {
+        margin-bottom: 15px;
+    }
+    .testimonial__rider-info {
+        margin-bottom: 20px;
+    }
+}

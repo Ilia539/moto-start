@@ -1,0 +1,171 @@
+.company {
+    padding: 70px 0 109px 0;
+    /* display: flex; */
+    position: relative;
+}
+.section {
+
+}
+@media (min-width: 1200px) {
+    .section {
+        display: flex;
+
+    }
+    .company__red-body {
+        /* width: 50%; */
+    }
+}
+.company__wrap {
+    /* max-width: 1267px; */
+    /* padding: 0 220px 0 273px; */
+    /* display: flex; */
+
+}
+.container-comred {
+
+}
+.section-container {
+    /* max-width: 1237px; */
+/* margin: 0 auto; */
+}
+.company__red {
+    background-color: #cd0a2d;
+    flex: 0 0 50%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding: 60px 185px 78px 255px;
+}
+.section-content {
+    /* flex: 0 0 100%; */
+
+}
+.company__red-body {
+    background-color: #cd0a2d;
+
+    /* max-width: 420px; */
+    /* display: flex;
+    flex-direction: column; */
+    /* padding: 60px 185px 78px 255px; */
+    /* width: 50%; */
+    
+}
+.section-body {
+
+}
+.company__red-title {
+    color: #fcfbfb;
+    margin-bottom: 45px;
+}
+.company__red-content {
+    
+}
+.company__red-smollcontent {
+    margin-bottom: 56px;
+}
+.company__red-smollcontent:last-child {
+    margin-bottom: 0;
+}
+.company__red-smoll-title {
+    color: #ffffff;
+    margin-bottom: 17px;
+}
+.company__red-smolltext {
+    opacity: 0.43;
+    line-height: 1.2;
+    max-width: 405px;
+}
+
+.company__white {
+    display: flex;
+    flex-direction: column;
+    /* padding: 70px 205px 60px 205px; */
+    padding: 70px 20px 60px 20px;
+
+    background-color: #ffffff;
+    flex: 0 0 50%;
+
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 1200px) {
+.company__white {
+    /* transform: translate(-100%, 63px); */
+    transform: translateY(63px);
+}
+.company__moto {
+    /* max-width: 357px; */
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    right: 50%;
+    transform: translate(50%, 0%);
+    transition: .5s ease-in;
+}
+
+}
+@media (max-width: 1200px) {
+    .company__moto {
+        /* max-width: 357px; */
+        /* position: absolute; */
+        top: 0;
+        bottom: 0;
+        right: 50%;
+        transform: rotate(90deg) translate(0%, -10%);
+        transition: .5s ease-in;
+    }
+}
+.company__white-body {
+}
+.company__white-smollcontent {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.company__white-smollcontent:last-child {
+    margin-bottom: 0;
+}
+.company__white-img {
+    max-width: 126px;
+    width: 100%;
+/* height: 125px; */
+border-radius: 50%;
+margin-right: 26px;
+}
+.white-img-left {
+    margin-left: 26px;
+}
+.company__white-info {
+}
+.company__white-persone {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+.company__white-name {
+    font-family: 'Bebas Neue';
+font-size: 47.7px;
+line-height: 1.2;
+font-weight: 700;
+color: #5e5e5e;
+}
+.company__white-profession {
+    font-family: 'Bebas Neue';
+font-size: 25px;
+line-height: 1.2;
+font-weight: 400;
+color: #979797;
+margin-left: 20px;
+}
+.company__white-smolltext {
+    color: #040404;
+    opacity: 0.65;
+    max-width: 255px;
+}
+.company__moto {
+    max-width: 357px;
+    position: absolute;
+}
+.company__moto-center {
+    /* width: 357px; */
+    object-fit: contain;
+}

@@ -1,0 +1,338 @@
+.feature {
+    padding-bottom: 128px;
+    width: 100%;
+}
+.feature__wrap {
+    background-color: #000000;
+    width: 100%;
+position: relative;
+}
+.feature__wrap::before {
+    content: '';
+    width: 50%;
+    height: 537px;
+    position: absolute;
+    background-color: #cd0a2d;
+    display: block;
+    left: 0;
+    bottom: 0;
+}
+.feature__container {
+    max-width: 1330px;
+    padding: 95px 15px 145px;
+    width: 100%;
+    margin: 0 auto;
+     position: relative;
+}
+.feature__container::after {
+    content: '';
+    width: 100%;
+    height: auto;
+    background: url('../image/feature/map_back1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: block;
+    top: -12px;
+    bottom: 0;
+    left: 0;
+    opacity: 0.12;
+}
+.feature__header {
+    max-width: 835px;
+    margin-bottom: 36px;
+}
+.feature__header-title {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.feature__header-title span {
+    color: #cd0a2d;
+}
+.feature__header-text {
+    color: #ffffff;
+}
+.feature__guide {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.feature__guide-left {
+    max-width: 485px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+margin-right: -39px;
+z-index: 2;
+}
+.feature__guide-days {
+    margin-bottom: 103px;
+    max-width: 360px;
+    width: 100%;
+}
+.feature__guide-days-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.feature__guide-tauzen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feature__guide-number {
+    font-family: 'Bebas Neue';
+font-size: 55px;
+line-height: 1;
+font-weight: 700;
+color: #ffffff;
+}
+.feature__guide-number span {
+    font-size: 29px;
+}
+.feature__guide-subnumber {
+    font-family: 'Bebas Neue';
+font-size: 28px;
+line-height: 1;
+font-weight: 700;
+color: #ffffff;
+}
+.feature__guide-threeth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feature__guide-bignum {
+    font-family: 'Bebas Neue';
+font-size: 86px;
+line-height: 1;
+font-weight: 700;
+color: #ffffff;
+}
+.feature__guide-bignum span {
+    font-size: 46px;
+}
+.feature__guide-subbignum {
+    font-family: 'Bebas Neue';
+    font-size: 45px;
+    line-height: 1;
+    font-weight: 700;
+    color: #ffffff;
+}
+.feature__guide-text {
+    text-align: center;
+}
+.feature__moto {
+    max-width: 372px;
+    width: 100%;
+    margin-bottom: -273px;
+    z-index: 1;
+}
+.feature__guide-right {
+    max-width: 485px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -26px;
+    z-index: 1;
+}
+.feature__guide-countries {
+    margin-bottom: 95px;
+    max-width: 335px;
+    width: 100%;
+}
+.feature__guide-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.feature__guide-plus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feature__guide-supbignum {
+    font-family: 'Bebas Neue';
+font-size: 123px;
+line-height: 0.8;
+font-weight: 700;
+color: #ffffff;
+}
+.feature__guide-subsupbignum {
+    font-family: 'Bebas Neue';
+font-size: 45px;
+line-height: 1;
+font-weight: 700;
+color: #ffffff;
+}
+@media (max-width: 1367px) {
+    .feature {
+        padding-bottom: 108px;
+    }
+    .feature__container {
+        padding: 80px 15px 125px;
+    }
+    .feature__guide-bignum {
+        font-size: 73px;
+    }
+    .feature__guide-subbignum {
+        font-size: 35px;
+    }
+    .feature__guide-supbignum {
+        font-size: 110px;
+    }
+    .feature__guide-subsupbignum {
+        font-size: 35px;
+    }
+    .feature__moto {
+        margin-bottom: -253px;
+    }
+}
+@media (max-width: 1281px) {
+    .feature__wrap::before {
+        height: 520px;
+    }
+    .feature {
+        padding-bottom: 88px;
+    }
+    .feature__container {
+        padding: 70px 15px 115px;
+    }
+    .feature__header-title {
+        margin-bottom: 20px;
+    }
+    .feature__guide-days {
+        margin-bottom: 85px;
+    }
+    .feature__guide-countries {
+        margin-bottom: 80px;
+    }
+    .feature__guide-content {
+        justify-content: space-around;
+    }
+    .feature__guide-bignum {
+        font-size: 63px;
+    }
+    .feature__guide-supbignum {
+        font-size: 100px;
+    }
+    .feature__moto {
+        margin-bottom: -243px;
+    }
+    
+}
+@media (max-width: 1025px) {
+    .feature {
+        padding-bottom: 76px;
+    }
+    .feature__wrap::before {
+        height: 490px;
+    }
+    .feature__header {
+        margin-bottom: 25px;
+    }
+    .feature__header-title {
+        margin-bottom: 15px;
+    }
+    .feature__container {
+        padding: 60px 15px 95px;
+    }
+    .feature__guide-days {
+        margin-bottom: 75px;
+    }
+    .feature__guide-countries {
+        margin-bottom: 70px;
+    }
+    .feature__guide-bignum {
+        font-size: 50px;
+    }
+    .feature__guide-supbignum {
+        font-size: 87px;
+    }
+    .feature__guide-number {
+        font-size: 43px;
+    }
+    .feature__moto {
+        margin-bottom: -212px;
+    }
+}
+@media (max-width: 991px) {
+    .feature__wrap::before {
+        height: 459px;
+    }
+}
+@media (max-width: 880px) {
+    .feature__wrap::before {
+        height: 420px;
+    }
+}
+@media (max-width: 768px) {
+    .feature {
+        padding-bottom: 65px;
+    }
+    .feature__guide-content {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .feature__guide-countries {
+        margin-bottom: 50px;
+    }
+    .feature__guide-supbignum {
+        font-size: 78px;
+    }
+    .feature__guide-threeth {
+        margin-top: 10px;
+    }
+    .feature__guide-plus {
+        margin-bottom: 10px;
+    }
+    .feature__guide-days {
+        margin-bottom: 55px;
+    }
+    .feature__moto {
+        margin-bottom: -135px;
+    }
+}
+@media (max-width: 668px) {
+    .feature__guide-countries,.feature__guide-days {
+        margin-bottom: 40px;
+    }
+    .feature__guide-bignum {
+        font-size: 40px;
+    }
+    .feature__guide-bignum span {
+        font-size: 30px;
+    }
+}
+@media (max-width: 540px) {
+    .feature {
+        padding-bottom: 50px;
+    }
+    .feature__container {
+        padding: 50px 15px 70px;
+    }
+    .feature__guide-right {
+        margin: 0px;
+    }
+    .feature__guide-left {
+        margin: 0px 0px 15px 0px;
+    }
+    .feature__guide {
+        flex-direction: column;
+    }
+    .feature__guide-bignum {
+        font-size: 45px;
+    }
+    .feature__guide-countries, .feature__guide-days {
+        margin-bottom: 25px;
+    }
+    .feature__moto {
+        display: none;
+    }
+}
